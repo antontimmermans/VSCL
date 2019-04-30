@@ -1,0 +1,65 @@
+.,English
+quest.name,Cryptex-Symbols
+quest.description,Cryptex based on standard Mansion of Madness symbols\nThe events that the USER should edit are: EventStart, PuzzleSolved and Puzzle Failed\nThe code for this puzzle is stored in variables CryptexSymbolCounter[1..5].\nThe values must be between 0 and 8:\n0 = {strength}\n1= {agility}\n2 = {observation}\n3 = {lore}\n4 = {influence}\n5 = {will}\n6 = {action}\n7 = {success}\n8 = {clue}\nExample usage of the puzzle: EventStart, PuzzleSolved, PuzzleFailed
+quest.synopsys,This is not a playable scenario but a scenario library component
+quest.authors,Cryptex-Symbol puzzle: Anton Timmermans
+CANCEL,Cancel
+CONTINUE,Continue
+GUESS,{action} Guess
+UICryptexSymbolsGuess.uitext,{qst:GUESS}
+UICryptexCancel.uitext,{qst:CANCEL}
+EventCryptexSymbolsGuessPass.text,The cryptex opens with a soft click.
+EventCryptexSymbolsGuessPass.button1,{qst:CONTINUE}
+EventCryptexSymbolsGuessFail.text,The code must be incorrect. The cryptex remains closed.
+EventCryptexSymbolsGuessFail.button1,{qst:CONTINUE}
+UICryptextSymbols1Value0.uitext,{strength}
+UICryptextSymbols1Value1.uitext,{agility}
+UICryptextSymbols1Value2.uitext,{observation}
+UICryptextSymbols1Value3.uitext,{lore}
+UICryptextSymbols1Value4.uitext,{influence}
+UICryptextSymbols1Value5.uitext,{will}
+UICryptextSymbols1Value6.uitext,{action}
+UICryptextSymbols1Value7.uitext,{success}
+UICryptextSymbols1Value8.uitext,{clue}
+UICryptextSymbols2Value0.uitext,{strength}
+UICryptextSymbols2Value1.uitext,{agility}
+UICryptextSymbols2Value2.uitext,{observation}
+UICryptextSymbols2Value3.uitext,{lore}
+UICryptextSymbols2Value4.uitext,{influence}
+UICryptextSymbols2Value5.uitext,{will}
+UICryptextSymbols2Value6.uitext,{action}
+UICryptextSymbols2Value7.uitext,{success}
+UICryptextSymbols2Value8.uitext,{clue}
+UICryptextSymbols3Value0.uitext,{strength}
+UICryptextSymbols3Value1.uitext,{agility}
+UICryptextSymbols3Value2.uitext,{observation}
+UICryptextSymbols3Value3.uitext,{lore}
+UICryptextSymbols3Value4.uitext,{influence}
+UICryptextSymbols3Value5.uitext,{will}
+UICryptextSymbols3Value6.uitext,{action}
+UICryptextSymbols3Value7.uitext,{success}
+UICryptextSymbols3Value8.uitext,{clue}
+UICryptextSymbols4Value0.uitext,{strength}
+UICryptextSymbols4Value1.uitext,{agility}
+UICryptextSymbols4Value2.uitext,{observation}
+UICryptextSymbols4Value3.uitext,{lore}
+UICryptextSymbols4Value4.uitext,{influence}
+UICryptextSymbols4Value5.uitext,{will}
+UICryptextSymbols4Value6.uitext,{action}
+UICryptextSymbols4Value7.uitext,{success}
+UICryptextSymbols4Value8.uitext,{clue}
+UICryptextSymbols5Value0.uitext,{strength}
+UICryptextSymbols5Value1.uitext,{agility}
+UICryptextSymbols5Value2.uitext,{observation}
+UICryptextSymbols5Value3.uitext,{lore}
+UICryptextSymbols5Value4.uitext,{influence}
+UICryptextSymbols5Value5.uitext,{will}
+UICryptextSymbols5Value6.uitext,{action}
+UICryptextSymbols5Value7.uitext,{success}
+UICryptextSymbols5Value8.uitext,{clue}
+Token0.button1,Button1
+EventCryptexSymbolsClear.button1,Button1
+EventPuzzleSolved.text,Your own puzzle solved text
+EventPuzzleSolved.button1,Continue
+EventPuzzleFailed.text,Your own text when puzzle is not solved
+EventPuzzleFailed.button1,Continue
